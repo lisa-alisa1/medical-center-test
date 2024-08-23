@@ -1,0 +1,36 @@
+@import './scss/variables';
+@import './scss/reset';
+@import './scss/mixins';
+
+
+@font-face {
+  font-family: OpenSans;
+  src: url(../assets/fonts/OpenSans-Regular.ttf);
+}
+
+@font-face {
+  font-family: OpenSans-Bold;
+  src: url(../assets/fonts/OpenSans-Bold.ttf);
+}
+
+@font-face {
+  font-family: OpenSans-SemiBold;
+  src: url(../assets/fonts/OpenSans-SemiBold.ttf);
+}
+
+
+body {
+  display: flex;
+  justify-content: center;
+  background-color: $neutral-200;
+}
+
+p, li, div {
+  font-family: OpenSans;
+}
+
+@media(max-width: 1240px) {
+  body {
+     display: block;
+  }
+}

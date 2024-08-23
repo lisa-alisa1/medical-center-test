@@ -1,0 +1,9 @@
+@mixin white-container {
+    background-color: $neutral-100;
+    border-radius: 10px;
+    width: 100%;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+@import './variables'
